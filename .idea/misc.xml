@@ -34,8 +34,8 @@
         <entry key="app/src/main/res/drawable/line_item_background_check_false.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/line_item_background_check_true.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/radio_btn_tab_bg_selector.xml" value="0.323" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main_horizontal.xml" value="0.28986746472851643" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2573749465583583" />
+        <entry key="app/src/main/res/layout/activity_main_horizontal.xml" value="0.2573749465583583" />
         <entry key="app/src/main/res/layout/activity_main_vertical.xml" value="0.2687763713080169" />
         <entry key="app/src/main/res/layout/activity_settings.xml" value="0.27233860624198375" />
         <entry key="app/src/main/res/layout/content_main_horizontal.xml" value="0.2722222222222222" />

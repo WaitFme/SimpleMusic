@@ -29,5 +29,7 @@
     <string name="padModeSummary">在大屏设备能获得更好的体验（已移除）</string>
     <string name="about">关于软件</string>
     <string name="aboutSummary">Version: 0.22.03.1 Build</string>
+    <string name="githubPath">github主页：https://github.com/WaitFme/Simple-Music-for-pad</string>
+    <string name="applicationVersion">V 0.22.03.1</string>
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

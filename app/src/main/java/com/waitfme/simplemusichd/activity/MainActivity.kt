@@ -337,20 +337,24 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             val settingsFragment = SettingsFragment()
             when (i) {
                 R.id.MainRdbItem0 -> {
-                    transaction.replace(R.id.MainContext, localFragment).commit()
                     MainMusicContent.visibility = View.VISIBLE
+                    MainFragmentTitle.text = this.getString(R.string.localMusic)
+                    transaction.replace(R.id.MainContext, localFragment).commit()
                 }
                 R.id.MainRdbItem1 -> {
+                    MainMusicContent.visibility = View.GONE
+                    MainFragmentTitle.text = this.getString(R.string.collectMusic)
                     transaction.replace(R.id.MainContext, collectFragment).commit()
-                    MainMusicContent.visibility = View.VISIBLE
                 }
                 R.id.MainRdbItem2 -> {
-                    transaction.replace(R.id.MainContext, aboutFragment).commit()
                     MainMusicContent.visibility = View.GONE
+                    MainFragmentTitle.text = this.getString(R.string.about)
+                    transaction.replace(R.id.MainContext, aboutFragment).commit()
                 }
                 R.id.MainRdbItem3 -> {
-                    transaction.replace(R.id.MainContext, settingsFragment).commit()
                     MainMusicContent.visibility = View.GONE
+                    MainFragmentTitle.text = this.getString(R.string.settings)
+                    transaction.replace(R.id.MainContext, settingsFragment).commit()
                 }
             }
         }

@@ -6,17 +6,11 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".activity.MainActivity"
-    tools:showIn="@layout/activity_main_vertical">
+    tools:showIn="@layout/activity_main">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/MainRclSongList"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingBottom="200dp" />
     </RelativeLayout>
 
 </androidx.core.widget.NestedScrollView>

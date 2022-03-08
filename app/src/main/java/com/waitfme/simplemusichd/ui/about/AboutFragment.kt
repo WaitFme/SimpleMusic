@@ -25,15 +25,13 @@ class AboutFragment:Fragment() {
 
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         val view:View = inflater.inflate(R.layout.fragment_about, container ,false)
-        val aboutGithub = view.findViewById<TextView>(R.id.AboutGithub)
-        aboutGithub?.text = Html.fromHtml("<a href'https://github.com/WaitFme/Simple-Music'>github主页：https://github.com/WaitFme/Simple-Music</a>")
-        aboutGithub?.movementMethod = LinkMovementMethod.getInstance()
         return view
     }
 }

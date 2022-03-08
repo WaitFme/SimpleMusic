@@ -30,4 +30,6 @@
     <string name="padModeSummary">You can get a better experience on a large screen device.</string>
     <string name="about">About me</string>
     <string name="aboutSummary">Version: 0.22.03.1 Build</string>
+    <string name="githubPath">github: https://github.com/WaitFme/Simple-Music-for-pad</string>
+    <string name="applicationVersion">V 0.22.03.1</string>
 </resources>
