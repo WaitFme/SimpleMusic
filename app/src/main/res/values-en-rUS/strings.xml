@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Music</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="localMusic">Local music</string>
+    <string name="collectMusic">My collect</string>
+    <string name="aboutMe">About me</string>
+    <string name="settings">Settings</string>
+    <string name="searchTip">search</string>
+    <string name="Music">title</string>
+    <string name="singer">Singer</string>
+    <string name="album">Album</string>
+    <string name="general">General</string>
+    <string name="padMode">Pad mode</string>
+    <string name="padModeSummary">You can get a better experience on a large screen device.</string>
+    <string name="about">About me</string>
+    <string name="aboutSummary">Version: 0.22.03.1 Build</string>
+</resources>

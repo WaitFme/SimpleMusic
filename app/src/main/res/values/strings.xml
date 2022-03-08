@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Simple Music</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="localMusic">本地音乐</string>
+    <string name="collectMusic">我的收藏</string>
+    <string name="aboutMe">关于软件</string>
+    <string name="settings">设置</string>
+    <string name="searchTip">搜索</string>
+    <string name="Music">歌曲</string>
+    <string name="singer">歌手</string>
+    <string name="album">专辑</string>
+    <string name="general">通用</string>
+    <string name="padMode">平板模式</string>
+    <string name="padModeSummary">在大屏设备能获得更好的体验（已移除）</string>
+    <string name="about">关于软件</string>
+    <string name="aboutSummary">Version: 0.22.03.1 Build</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
